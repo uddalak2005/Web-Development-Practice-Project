@@ -1,0 +1,507 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+}
+
+.top{
+    display: grid;
+    grid-template-rows: auto 600px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.8) 100%),
+    url("./assets/images/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100%);
+}
+
+.logo{
+    height:50px;
+    width:150px;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+
+}
+
+.middleOfTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.heading{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin:0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.subsidary{
+    font-size: 1.5rem;
+    font-weight:bold;
+    padding:10px;
+    color: white;
+    margin:0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slogan{
+    font-size: 1.25rem;
+    font-weight:bold;
+    margin:20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.credentials{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    padding: 10px;
+    margin-bottom: 100px;
+    width:80%;
+    margin-top:20px;
+}
+
+.buttonArea{
+    display: flex;
+    gap:1rem;
+    grid-column-start: 3;
+    padding-left: 40px;
+}
+
+.drop{
+    width:50%;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding:5px;
+    font-weight: bold;
+}
+
+.sign_in{
+    height:30px;
+    width:80px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border:0px;
+    font-weight: bold;
+}
+
+.email{
+    width: min(350px, 80%);
+    height:40px;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    border:1px solid white;
+    color:white;
+    font-size:1rem;
+    font-weight: bold;
+}
+
+.getStarted{
+    width:180px;
+    height:60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.lni-arrow-right{
+    fill:white;
+    height:30px;
+    padding:0;
+    margin:0;
+}
+
+
+.middle1{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    overflow-x: hidden;
+    /* height:600px; */
+
+}
+
+.textContainer1{
+    width:50%;
+}
+
+
+.subs{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+}
+
+.head{
+    font-size: 3rem;
+    font-weight: 900;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    margin:0px;
+    padding:10px;
+    text-align: left;
+}
+
+.media1{
+    position: relative;
+}
+
+.media1 img{
+    position: relative;
+    z-index:10;
+    width: 100%;
+}
+
+.frame1_video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width:80%;
+}
+
+.separation{
+    width:100%;
+    height:7px;
+    background-color: rgb(45, 45, 45);
+}
+
+.middle2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    margin:auto;
+    overflow-x: hidden;
+    /* height:600px; */
+}
+
+
+.media2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileBanner{
+    position: relative;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    width:300px;
+    border: 2px solid white;
+    height:100px;
+    align-items: center;
+    bottom:130px;
+}
+
+#poster{
+    width:50px;
+    padding:10px;
+
+}
+
+#mobile{
+    width:600px;
+}
+
+#gif{
+    width:20%;
+    height:60%;
+    padding:10px;
+}
+
+#content{
+    color:white;
+    margin-bottom: 0;
+}
+#download{
+    color: rgb(0, 123, 255);
+    margin-top: 0;
+}
+
+.middle3{
+    width:80vw;
+    /* height:600px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    overflow-x: hidden;
+}
+
+.textContainer3{
+    width: 50%;
+}
+
+.media3{
+    position:relative;
+}
+
+#frame3{
+    width:100%;
+    position: relative;
+    z-index: 10;
+}
+
+#frame3_video{
+    width: 65%;
+    position: absolute;
+    top:10%;
+    left:17%;
+}
+
+.middle4{
+    display:flex;
+    width:80%;
+    /* height:600px; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.faq{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width:80vw;
+    margin: auto;
+}
+
+#fact{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.questions{
+    list-style: none;
+    color:white;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+.doubts{
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    height:60px;
+    justify-content: space-between;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 7px;
+}
+
+#plus_icon{
+    height:30px;
+}
+
+.expand{
+    background-color: rgba(45, 45, 45,0);
+    border:none
+}
+
+.links>p{
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    padding: 0;
+    margin: auto;
+    color:white;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+.links{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:80vw;
+    margin:auto;
+}
+
+#bottom_drop{
+    margin:10px;
+}
+
+#end{
+    color:white;
+    font-size: 14px;
+    padding-left:10px;
+}
+
+a{
+    color:white;
+    font-size: 14px;
+}
+
+.doubts:hover{
+    background-color: rgb(64, 64, 64);
+}
+
+.footText{
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    overflow: hidden;
+    gap:1rem;
+}
+
+.media4{
+    width:100%;
+}
+
+#bottom_drop{
+    width:100px;
+}
+
+@media(max-width:1250px){
+    .middle1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width:100%; */
+    }
+    .middle2{
+        flex-direction: column;
+    }
+    .middle3{
+        flex-direction: column;
+    }
+    .middle4{
+        flex-direction: column;
+    }
+    .heading{
+        margin-top:70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2.5rem;
+    }
+    .subsidary{
+        font-size: 1.125rem;
+    }
+    .slogan{
+        font-size: 1rem;
+    }
+    .textContainer1{
+        width: 100%;
+    }
+    .head{
+        text-align: center;
+        font-size: 2.25rem;
+        margin-top:30px;
+    }
+    .subs{
+        font-size: 1.125rem;
+        text-align: center;
+    }
+    .textContainer3{
+        width: 100%;
+    }
+    #children{
+        width:100%;
+    }
+    .media2{
+        order:2;
+        height:450px;
+    }
+    .media4{
+        order:2;
+    }
+    .logo{
+        width:100px;
+        height:30px;
+    }
+    .buttonArea{
+        width: 50;
+    }
+    .credentials{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-bottom: auto;
+    }
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .doubts>span{
+        font-size: 1rem;
+    }
+    .footText{
+        text-align: center;
+    }
+    .links{
+        grid-template-rows: repeat(8,1fr);
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+    .getStarted{
+        width:40%;
+        font-size: 1.125rem;
+    }
+
+    #footButton{
+        margin-bottom: 50px;
+    }
+    #mobile{
+        width:500px;
+    }
+}
