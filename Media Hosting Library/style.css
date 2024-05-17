@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:#240A34;
+    color:white;
+}
+
+#imgURL{
+    width:80%;
+}
+
+.dualUpload{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:0;
+    width:80%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.uploadImage{
+    height:80px;
+}
+
+.player{
+    display:none;
+    background-color: rgba(0, 0, 0, 0.8);
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+.player:hover{
+    cursor:pointer;
+}
+
+.Inputs{
+    font-size: 22px;
+    font-weight:bolder;
+}
+
+#close{
+    position:absolute;
+    top:1%;
+    right:1%;
+    transform: scale(0.5)
+}
+
+.player video{
+    position: absolute;
+    top:25%;
+    left:28%;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+    margin-top: 20px;
+}
+
+header>hr{
+    margin-top:10px;
+    width:80%;
+    margin-bottom: 20px;
+}
+
+.mainSection{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.upload{
+    background-color: #1e002f;
+    border-radius: 10px;
+    margin:20px;
+    margin-left: 40px;
+
+}
+
+.library{
+    display: block;
+    background-color: #1e002f;
+    height: 500px;
+    border-radius: 10px;
+    margin:15px;
+    margin-right: 40px;
+    overflow-y: scroll;
+}
+
+.getInfo{
+    display:flex;
+    flex-direction: column;
+    padding-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    adding-bottom:30px;
+    gap:8px;
+}
+
+.inputArea{
+    background-color:rgb(255,255,255,0.3);
+    border-radius:10px;
+    height:40px;
+    border:0;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.labelForInputs{
+    margin-top: 10px;
+    font-size:12px;
+    padding-left: 10px;
+}
+
+#uploadButton{
+    background-color: #5356FF;
+    height:40px;
+    width:40%;
+    border-radius: 50px;
+    border: 0;
+    color:white;
+    box-shadow: 0 0 15px 5px rgba(113,201,255,0.5);
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sub-heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:auto;
+}
+
+.pic{
+    height:120px;
+    width:213px;
+    border-radius: 10px;
+    border:0;
+}
+
+.thumbnail{
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+
+.videoContainer{
+    width:90%;
+    background-color: #4b007c;
+    margin:auto;
+    display: flex;
+    border-radius:20px;
+    height:120px;
+    align-items: center;
+    padding: 15px;
+    padding-left:20px;
+    gap:20px;
+
+}
+
+.sub{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+
+.title:hover{
+    cursor:pointer;
+}
+.title:clicked{
+    text-decoration: none;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:100%;
+    gap:10px;
+}
+
+.channel{
+    font-size: 14px;
+    color: #c2c2c2;
+}
+
+.mediaArea{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+
+.capsule{
+    position: absolute;
+    z-index: 10;
+    bottom:10px;
+    right:10px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width:1250px){
+    .mainSection{
+        grid-template-columns: 1fr;
+    }
+    .upload{
+        /*height: 50vh;*/
+        margin:30px;
+        padding: 30px;
+
+    }
+    .library{
+        height: 50vh;
+        border-radius: 10px;
+        margin:30px;
+        overflow-y: scroll;
+        display: none;
+    }
+    .inputArea{
+        border:0;
+        height:80px;
+        border-radius: 30px;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .labelForInputs{
+        font-size:20px;
+        padding-left: 10px;
+    }
+    #sub-heading{
+        font-size: 4rem;
+    }
+    header{
+        font-size: 2.8rem;
+        padding:10px;
+        padding-top: 40px;
+    }
+    #uploadButton{
+        height:60px;
+        font-size: 24px;
+    }
+    #sub-heading{
+        margin:20px;
+    }
+}
