@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F6BB;
+    font-family: "Gochi Hand", cursive;
+}
+
+.button{
+    height:5.5%;
+    width:2%;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.heading{
+    color:#114232;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.drumset>img{
+    width:55%;
+    margin: auto;
+}
+
+.drumset{
+    position: relative;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w{
+    top:10%;
+    left:47.25%;
+}
+
+.a{
+    top:31%;
+    left:41.15%;
+}
+
+.s{
+    top:31.25%;
+    right:43.75%;
+}
+
+.d{
+    top:24%;
+    left:31%;
+}
+
+.i{
+    top:24%;
+    right:32.5%;
+}
+
+.j{
+    top:60.5%;
+    right:31.15%;
+}
+
+.k{
+    top:73%;
+    right:41.45%;
+}
+
+.l{
+    top:69%;
+    left:38%;
+}
+
+.animate{
+    transform: scale(1.3);
+}
+
+
