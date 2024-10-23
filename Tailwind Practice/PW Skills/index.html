@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <style>
+        /* Optional: Add some transition for smoother opening/closing */
+        .menu {
+            transition: max-height 0.3s ease;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-slate-950">
+    <!-- navbar goes here -->
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-8 items-center">
+        <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+        <ul id="menu" class="md:flex hidden gap-4 font-semibold">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About Us</li>
+            <li class="cursor-pointer">Contact Us</li>
+        </ul>
+        <div class="md:block hidden p-2 bg-indigo-700 rounded-lg text-white font-bold">
+            Login/Sign Up
+        </div>
+        <div class="md:hidden">
+            <a id="hamburger" class="text-4xl cursor-pointer" href="#">&equiv;</a>
+        </div>
+    </nav>
+
+    <!-- Optional: Hidden menu for mobile view -->
+    <div id="mobile-menu" class="md:hidden menu max-h-0">
+        <ul class="flex flex-col gap-4 p-4 bg-indigo-200">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About Us</li>
+            <li class="cursor-pointer">Contact Us</li>
+        </ul>
+    </div>
+    <!--navbar end here-->
+
+    <!--Hero Section-->
+    <header class="w-full h-auto">
+        <img class="md:hidden" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg" alt="Mobile Image">
+
+        <img class="hidden md:block" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="Web Image">
+    </header>
+    <!--Hero Section Ends Here-->
+    <!--Student Section-->
+    <div class="w-full h-auto flex flex-col flex-wrap text-center p-10">
+        <div class="w-full h-auto flex flex-col justify-between items-center gap-4">
+            <p class="text-indigo-600 text-3xl font-bold md:text-4xl">Pure Hardwork, No Shortcuts</p>
+            <div class="w-1/2 border-amber-300 border-2 rounded-lg md:w-1/6" ></div>
+        </div>
+        <!-- Cards Section-->
+        <div class="flex w-full justify-center my-10 flex-wrap px-20 items-center md:px-60 gap-[80px]">
+            <div class="flex flex-col justify-center flex-wrap items-center ">
+                <img class="h-[150px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-2xl">600+</p>
+                <p class="text-slate-500 font-semibold text-xl ">Different Courses</p>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-[150px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-2xl">600+</p>
+                <p class="text-slate-500 font-semibold text-xl ">Different Courses</p>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-[150px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-2xl">600+</p>
+                <p class="text-slate-500 font-semibold text-xl ">Different Courses</p>
+            </div>
+        </div>
+    </div>
+    <!-- Our Products Section -->
+    <div class="w-full h-auto flex flex-col flex-wrap text-center">
+        <div class="w-full h-auto flex flex-col justify-between items-center gap-4">
+            <p class="text-indigo-600 text-3xl font-bold md:text-4xl">Our Products</p>
+            <div class="w-1/2 border-amber-300 border-2 rounded-lg md:w-1/6" ></div>
+        </div>
+        <!-- Cards Section-->
+        <div class="flex w-full justify-center my-10 flex-wrap px-4 items-center  md:px-20 gap-4">
+            <div class="flex flex-col justify-center flex-wrap items-center p-5 rounded-lg hover:border-white hover:border-2 cursor-pointer">
+                <img class="h-[80px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-xl">600+</p>
+                <p class="text-slate-500 font-semibold ">Different Courses</p>
+            </div>
+
+            <div class="flex flex-col justify-center flex-wrap items-center p-5 rounded-lg hover:border-white hover:border-2 cursor-pointer">
+                <img class="h-[80px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-xl">600+</p>
+                <p class="text-slate-500 font-semibold ">Different Courses</p>
+            </div>
+
+            <div class="flex flex-col justify-center flex-wrap items-center p-5 rounded-lg hover:border-white hover:border-2 cursor-pointer">
+                <img class="h-[80px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-xl">600+</p>
+                <p class="text-slate-500 font-semibold ">Different Courses</p>
+            </div>
+
+            <div class="flex flex-col justify-center flex-wrap items-center p-5 rounded-lg hover:border-white hover:border-2 cursor-pointer">
+                <img class="h-[80px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-xl">600+</p>
+                <p class="text-slate-500 font-semibold ">Different Courses</p>
+            </div>
+
+            <div class="flex flex-col justify-center flex-wrap items-center p-5 rounded-lg hover:border-white hover:border-2 cursor-pointer">
+                <img class="h-[80px]" src="./public/webinar.png" alt="">
+                <p class="text-white font-semibold text-xl">600+</p>
+                <p class="text-slate-500 font-semibold ">Different Courses</p>
+            </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w-full h-auto bg-gray-800 flex flex-wrap text-white justify-center items-center md:gap-20">
+        <div class="h-[100%] p-5 flex flex-col justify-center flex-wrap gap-1 items-center">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 800;" class="p-2 text-xl">PW SKILLS</p>
+            <p class="font-semibold">Email Us at - pwskills.gmail.com</p>
+            <img class="h-20" src="./public/iso.png" alt="">
+            <p class="font-semibold">ISO 2001 - 2028</p>
+        </div>
+        <div class="flex flex-wrap gap-20 justify-center">
+            <div class="p-5">
+                <p class="font-semibold">PW Skills</p>
+                <div class="w-[100%] border-amber-400 border-2"></div>
+                <ul class="list-none">
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="p-5">
+                <p class="font-semibold">PW Skills</p>
+                <div class="w-[100%] border-amber-400 border-2"></div>
+                <ul class="list-none">
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="p-5">
+                <p class="font-semibold">PW Skills</p>
+                <div class="w-[100%] border-amber-400 border-2"></div>
+                <ul class="list-none">
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="p-5">
+                <p class="font-semibold">PW Skills</p>
+                <div class="w-[100%] border-amber-400 border-2"></div>
+                <ul class="list-none">
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+        // Toggle mobile menu visibility
+        if (mobileMenu.style.maxHeight) {
+            mobileMenu.style.maxHeight = null;
+        } else {
+            mobileMenu.style.maxHeight = mobileMenu.scrollHeight + "px";
+        }
+    });
+</script>
+</html>
